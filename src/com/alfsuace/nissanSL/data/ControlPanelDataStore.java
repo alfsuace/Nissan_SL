@@ -6,7 +6,7 @@ import com.alfsuace.nissanSL.domain.models.ControlPanel;
 import java.util.List;
 
 public class ControlPanelDataStore {
-    private static ChasisDataStore instance = null;
+    private static ControlPanelDataStore instance = null;
     private TreeMap<Integer, ControlPanel> dataStore = new TreeMap<>();
 
     public void add(ControlPanel controlPanel){
